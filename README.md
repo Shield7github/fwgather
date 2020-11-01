@@ -3,5 +3,5 @@ FWgather is a free tool for Check Point Firewall Administrators to gather system
 
 The tool is a simple shell script that automatically creates a directory on the firewall and runs numerous troublshoting commands and records their output to be reviewed.  We created this tool so Firewall administrators can gather a bunch of Check Point specific data quickly withut having to remember all the commands. This is also useful for scenarios where an Administrator needs to gather data quickly prior to having to reboot a gateway and risk losing some relevant logs. 
 
-From expert mode ./firewall-gatherv1.1.sh
+From expert mode ./firewall-gatherv1.2.sh
 The tool will create a directory under /varlog/ named after the Firewall's hostname and place everything in this new directory. 
